@@ -34,6 +34,7 @@ while True :
             print(f"{P2name} loses!")
             P1wins += 1
             break
+        input("Press ENTER to continue.")
     print(f"{P1name}: {P1wins}  {P2name}: {P2wins}")
     playagain = input("Do you want to play agian? (y/n) ")
     if "n" in playagain.lower() :
